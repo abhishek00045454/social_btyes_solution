@@ -1,0 +1,3 @@
+SELECT 
+    SQRT(POWER(x2 - x1, 2) + POWER(y2 - y1, 2)) AS shortest_distance
+FROM YourTable;
